@@ -1,6 +1,7 @@
 function resultado() {
     var valorEmReal = document.getElementById("real").value
-    var valorEmDolar = valorEmReal / 5.16
-    var valorFinal = valorEmDolar.toFixed(2)
+    var valorEmDolar = document.getElementById("dolar").value
+    var conversão = valorEmReal / valorEmDolar
+    var valorFinal = conversão.toFixed(2)
     alert ("O valor em dólar é " + valorFinal)
 }

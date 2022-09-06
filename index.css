@@ -24,6 +24,7 @@ body {
 }
 
 .botao {
+    margin-top: 20px;
     height: 31px;
     border-radius: 4px;
 }
