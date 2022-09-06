@@ -1,0 +1,29 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #12125e;
+}
+
+.logo {
+    width: 200px;
+}
+
+.stich {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.campo {
+    border-radius: 6px;
+    width: 200px;
+    height: 25px;
+}
+
+.botao {
+    height: 31px;
+    border-radius: 4px;
+}
